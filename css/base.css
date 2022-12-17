@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.container {
+  max-width: 1198px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: red;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  color: var(--color-tittle);
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--color-accent);
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=base.css.map */

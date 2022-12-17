@@ -1,0 +1,20 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  margin-bottom: 88px;
+}
+
+.about-content {
+  width: 454px;
+  padding: 64px 0 122px 104px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-top: 0;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=about.css.map */

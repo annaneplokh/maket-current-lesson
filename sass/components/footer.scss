@@ -1,0 +1,57 @@
+footer{
+    background-color: var(--color-bgfooter);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    width: 268px;
+}
+
+.footer-subtitle{
+    color: var(--color-accent);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.company-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.support-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-items{
+    color: var(--color-subtitle);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-form{
+    width: 268px;
+}
+
+.form-lable{
+    color: var(--color-accent);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-info{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icon-list{
+    display: flex;
+}

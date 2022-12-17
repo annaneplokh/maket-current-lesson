@@ -1,0 +1,28 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 112px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  color: var(--color-subtitle);
+  margin: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 40px;
+}/*# sourceMappingURL=hero.css.map */
