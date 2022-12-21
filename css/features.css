@@ -15,6 +15,7 @@
   box-sizing: border-box;
   border-radius: 8px;
   background-color: #fff;
+  background-image: linear-gradient(rgba(100, 123, 100, 0.77) 0%, rgba(100, 123, 100, 0) 66.46%, rgba(100, 123, 100, 0) 100%);
 }
 
 .features-items__accent {

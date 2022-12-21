@@ -3,6 +3,18 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 112px;
+  position: relative;
+}
+
+.hero-container::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(#EF8031 0%, rgba(239, 128, 49, 0.307) 69.3%, rgba(239, 128, 49, 0) 100%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 96px;
+  left: 150px;
 }
 
 .hero-content {

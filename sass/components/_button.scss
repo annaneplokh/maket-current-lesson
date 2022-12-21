@@ -9,8 +9,18 @@
     
     padding: 24px;
     border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: rgba(128, 143, 150, 0.4);
+}
+
+.button:hover{
+    background-color: var(--color-text-button);
+    color: var(--color-accent);
+
 }
 
 .header-button{
     padding: 12px 16px;
+    text-transform: capitalize;
 }

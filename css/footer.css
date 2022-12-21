@@ -5,10 +5,20 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
+  padding: 48px 0 48px 0;
 }
 
 .footer-info {
   width: 268px;
+  margin: 0;
+}
+
+.footer-info:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-logo {
+  margin-bottom: 26px;
 }
 
 .footer-subtitle {
@@ -16,6 +26,8 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .company-list {
@@ -36,6 +48,10 @@ footer {
   line-height: 1.5;
 }
 
+.footer-items:not(:last-child) {
+  margin-bottom: 12px;
+}
+
 .footer-form {
   width: 268px;
 }
@@ -52,6 +68,10 @@ footer {
   line-height: 1.5;
 }
 
-.icon-list {
-  display: flex;
+.footer-textarea {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  padding: 16px 24px;
+  border-radius: 2px;
+  border: transparent;
 }/*# sourceMappingURL=footer.css.map */
